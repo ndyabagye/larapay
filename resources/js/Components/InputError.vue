@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import {Label} from "@/Components/ui/label";
+
 defineProps<{
     message?: string;
 }>();
@@ -6,7 +8,7 @@ defineProps<{
 
 <template>
     <div v-show="message">
-        <p class="text-sm text-red-600">
+        <p class="text-xs font-medium text-red-600">
             {{ message }}
         </p>
     </div>

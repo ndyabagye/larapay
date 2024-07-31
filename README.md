@@ -64,3 +64,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Permissions
+
+[Permissions](https://laraveldaily.com/lesson/laravel-vue-inertia-food-delivery/users-roles-permissions
+)
+
+[Spatie permissions](https://medium.com/@prevailexcellent/role-and-permission-in-laravel-10-using-spatie-the-definitive-guide-2023-57bb6b56abcd)
+
+
+## Shadcn Sections
+[Sections](https://shadcn-ui-blocks.vercel.app/)
+
+
+## Lucide Icons
+[Icons](https://lucide.dev/)
+
+A user can have many roles
+
+A role can have many permissions
+
+
+A user can have many properties
+
+A user can apply to many properties
+
+A property can have many applications

@@ -103,6 +103,7 @@ const showingNavigationDropdown = ref(false);
                                 </svg>
                             </button>
                         </div>
+
                     </div>
                 </div>
 
@@ -144,8 +145,10 @@ const showingNavigationDropdown = ref(false);
             </header>
 
             <!-- Page Content -->
-            <main>
+            <main class="flex">
+                <div class="grow">
                 <slot />
+                </div>
             </main>
         </div>
     </div>
